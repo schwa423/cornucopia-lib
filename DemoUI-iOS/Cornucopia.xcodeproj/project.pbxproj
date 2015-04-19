@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C80ACB1AE43F0700058083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C80ACA1AE43F0700058083 /* main.m */; };
+		03C80ACE1AE43F0700058083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C80ACD1AE43F0700058083 /* AppDelegate.m */; };
+		03C80AD11AE43F0700058083 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C80AD01AE43F0700058083 /* ViewController.m */; };
+		03C80AD41AE43F0700058083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C80AD21AE43F0700058083 /* Main.storyboard */; };
+		03C80AD61AE43F0700058083 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C80AD51AE43F0700058083 /* Images.xcassets */; };
+		03C80AD91AE43F0700058083 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C80AD71AE43F0700058083 /* LaunchScreen.xib */; };
+		03C80AE51AE43F0800058083 /* CornucopiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C80AE41AE43F0800058083 /* CornucopiaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C80ADF1AE43F0800058083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C80ABD1AE43F0700058083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C80AC41AE43F0700058083;
+			remoteInfo = Cornucopia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C80AC51AE43F0700058083 /* Cornucopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cornucopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C80AC91AE43F0700058083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C80ACA1AE43F0700058083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03C80ACC1AE43F0700058083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03C80ACD1AE43F0700058083 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03C80ACF1AE43F0700058083 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03C80AD01AE43F0700058083 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03C80AD31AE43F0700058083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C80AD51AE43F0700058083 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03C80AD81AE43F0700058083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		03C80ADE1AE43F0800058083 /* CornucopiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CornucopiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C80AE31AE43F0800058083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C80AE41AE43F0800058083 /* CornucopiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornucopiaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C80AC21AE43F0700058083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C80ADB1AE43F0800058083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C80ABC1AE43F0700058083 = {
+			isa = PBXGroup;
+			children = (
+				03C80AC71AE43F0700058083 /* Cornucopia */,
+				03C80AE11AE43F0800058083 /* CornucopiaTests */,
+				03C80AC61AE43F0700058083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03C80AC61AE43F0700058083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C80AC51AE43F0700058083 /* Cornucopia.app */,
+				03C80ADE1AE43F0800058083 /* CornucopiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C80AC71AE43F0700058083 /* Cornucopia */ = {
+			isa = PBXGroup;
+			children = (
+				03C80ACC1AE43F0700058083 /* AppDelegate.h */,
+				03C80ACD1AE43F0700058083 /* AppDelegate.m */,
+				03C80ACF1AE43F0700058083 /* ViewController.h */,
+				03C80AD01AE43F0700058083 /* ViewController.m */,
+				03C80AD21AE43F0700058083 /* Main.storyboard */,
+				03C80AD51AE43F0700058083 /* Images.xcassets */,
+				03C80AD71AE43F0700058083 /* LaunchScreen.xib */,
+				03C80AC81AE43F0700058083 /* Supporting Files */,
+			);
+			path = Cornucopia;
+			sourceTree = "<group>";
+		};
+		03C80AC81AE43F0700058083 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C80AC91AE43F0700058083 /* Info.plist */,
+				03C80ACA1AE43F0700058083 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03C80AE11AE43F0800058083 /* CornucopiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				03C80AE41AE43F0800058083 /* CornucopiaTests.m */,
+				03C80AE21AE43F0800058083 /* Supporting Files */,
+			);
+			path = CornucopiaTests;
+			sourceTree = "<group>";
+		};
+		03C80AE21AE43F0800058083 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C80AE31AE43F0800058083 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C80AC41AE43F0700058083 /* Cornucopia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C80AE81AE43F0800058083 /* Build configuration list for PBXNativeTarget "Cornucopia" */;
+			buildPhases = (
+				03C80AC11AE43F0700058083 /* Sources */,
+				03C80AC21AE43F0700058083 /* Frameworks */,
+				03C80AC31AE43F0700058083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cornucopia;
+			productName = Cornucopia;
+			productReference = 03C80AC51AE43F0700058083 /* Cornucopia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03C80ADD1AE43F0800058083 /* CornucopiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C80AEB1AE43F0800058083 /* Build configuration list for PBXNativeTarget "CornucopiaTests" */;
+			buildPhases = (
+				03C80ADA1AE43F0800058083 /* Sources */,
+				03C80ADB1AE43F0800058083 /* Frameworks */,
+				03C80ADC1AE43F0800058083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C80AE01AE43F0800058083 /* PBXTargetDependency */,
+			);
+			name = CornucopiaTests;
+			productName = CornucopiaTests;
+			productReference = 03C80ADE1AE43F0800058083 /* CornucopiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C80ABD1AE43F0700058083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Foo;
+				TargetAttributes = {
+					03C80AC41AE43F0700058083 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					03C80ADD1AE43F0800058083 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 03C80AC41AE43F0700058083;
+					};
+				};
+			};
+			buildConfigurationList = 03C80AC01AE43F0700058083 /* Build configuration list for PBXProject "Cornucopia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C80ABC1AE43F0700058083;
+			productRefGroup = 03C80AC61AE43F0700058083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C80AC41AE43F0700058083 /* Cornucopia */,
+				03C80ADD1AE43F0800058083 /* CornucopiaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C80AC31AE43F0700058083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C80AD41AE43F0700058083 /* Main.storyboard in Resources */,
+				03C80AD91AE43F0700058083 /* LaunchScreen.xib in Resources */,
+				03C80AD61AE43F0700058083 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C80ADC1AE43F0800058083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C80AC11AE43F0700058083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C80AD11AE43F0700058083 /* ViewController.m in Sources */,
+				03C80ACE1AE43F0700058083 /* AppDelegate.m in Sources */,
+				03C80ACB1AE43F0700058083 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C80ADA1AE43F0800058083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C80AE51AE43F0800058083 /* CornucopiaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C80AE01AE43F0800058083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C80AC41AE43F0700058083 /* Cornucopia */;
+			targetProxy = 03C80ADF1AE43F0800058083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03C80AD21AE43F0700058083 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C80AD31AE43F0700058083 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03C80AD71AE43F0700058083 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C80AD81AE43F0700058083 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C80AE61AE43F0800058083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03C80AE71AE43F0800058083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03C80AE91AE43F0800058083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cornucopia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03C80AEA1AE43F0800058083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cornucopia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03C80AEC1AE43F0800058083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CornucopiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cornucopia.app/Cornucopia";
+			};
+			name = Debug;
+		};
+		03C80AED1AE43F0800058083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CornucopiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cornucopia.app/Cornucopia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C80AC01AE43F0700058083 /* Build configuration list for PBXProject "Cornucopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C80AE61AE43F0800058083 /* Debug */,
+				03C80AE71AE43F0800058083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C80AE81AE43F0800058083 /* Build configuration list for PBXNativeTarget "Cornucopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C80AE91AE43F0800058083 /* Debug */,
+				03C80AEA1AE43F0800058083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03C80AEB1AE43F0800058083 /* Build configuration list for PBXNativeTarget "CornucopiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C80AEC1AE43F0800058083 /* Debug */,
+				03C80AED1AE43F0800058083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C80ABD1AE43F0700058083 /* Project object */;
+}
