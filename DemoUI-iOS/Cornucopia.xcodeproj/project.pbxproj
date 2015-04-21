@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		03C80ACB1AE43F0700058083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C80ACA1AE43F0700058083 /* main.m */; };
 		03C80ACE1AE43F0700058083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C80ACD1AE43F0700058083 /* AppDelegate.m */; };
-		03C80AD11AE43F0700058083 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C80AD01AE43F0700058083 /* ViewController.m */; };
+		03C80AD11AE43F0700058083 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03C80AD01AE43F0700058083 /* ViewController.mm */; };
 		03C80AD41AE43F0700058083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C80AD21AE43F0700058083 /* Main.storyboard */; };
 		03C80AD61AE43F0700058083 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C80AD51AE43F0700058083 /* Images.xcassets */; };
 		03C80AD91AE43F0700058083 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C80AD71AE43F0700058083 /* LaunchScreen.xib */; };
-		03C80AE51AE43F0800058083 /* CornucopiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C80AE41AE43F0800058083 /* CornucopiaTests.m */; };
+		03C80AE51AE43F0800058083 /* CornucopiaTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03C80AE41AE43F0800058083 /* CornucopiaTests.mm */; };
 		03C80EF51AE442A000058083 /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C80EEB1AE442A000058083 /* Algorithm.cpp */; };
 		03C80EF61AE442A000058083 /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C80EEB1AE442A000058083 /* Algorithm.cpp */; };
 		03C80EF71AE442A000058083 /* Arc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C80EEE1AE442A000058083 /* Arc.cpp */; };
@@ -132,6 +132,14 @@
 		03C811501AE4432600058083 /* SVD in Resources */ = {isa = PBXBuildFile; fileRef = 03C810C51AE4432600058083 /* SVD */; };
 		03C811511AE4432600058083 /* UmfPackSupport in Resources */ = {isa = PBXBuildFile; fileRef = 03C810C61AE4432600058083 /* UmfPackSupport */; };
 		03C811521AE4432600058083 /* UmfPackSupport in Resources */ = {isa = PBXBuildFile; fileRef = 03C810C61AE4432600058083 /* UmfPackSupport */; };
+		03C8115E1AE4E65300058083 /* CurveDerivativesTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C811541AE4E65300058083 /* CurveDerivativesTest.cpp */; };
+		03C8115F1AE4E65300058083 /* CurveProjectTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C811551AE4E65300058083 /* CurveProjectTest.cpp */; };
+		03C811601AE4E65300058083 /* EndToEndTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C811561AE4E65300058083 /* EndToEndTest.cpp */; };
+		03C811611AE4E65300058083 /* FresnelTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C811571AE4E65300058083 /* FresnelTest.cpp */; };
+		03C811621AE4E65300058083 /* PolylineTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C811581AE4E65300058083 /* PolylineTest.cpp */; };
+		03C811631AE4E65300058083 /* PrimitiveFitterTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C811591AE4E65300058083 /* PrimitiveFitterTest.cpp */; };
+		03C811641AE4E65300058083 /* PrimitiveSeqTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C8115A1AE4E65300058083 /* PrimitiveSeqTest.cpp */; };
+		03C811651AE4E65300058083 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C8115B1AE4E65300058083 /* Test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,13 +159,13 @@
 		03C80ACC1AE43F0700058083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03C80ACD1AE43F0700058083 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03C80ACF1AE43F0700058083 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		03C80AD01AE43F0700058083 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03C80AD01AE43F0700058083 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		03C80AD31AE43F0700058083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03C80AD51AE43F0700058083 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		03C80AD81AE43F0700058083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		03C80ADE1AE43F0800058083 /* CornucopiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CornucopiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C80AE31AE43F0800058083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03C80AE41AE43F0800058083 /* CornucopiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornucopiaTests.m; sourceTree = "<group>"; };
+		03C80AE41AE43F0800058083 /* CornucopiaTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CornucopiaTests.mm; sourceTree = "<group>"; };
 		03C80EEB1AE442A000058083 /* Algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Algorithm.cpp; path = ../Cornucopia/Algorithm.cpp; sourceTree = "<group>"; };
 		03C80EEC1AE442A000058083 /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Algorithm.h; path = ../Cornucopia/Algorithm.h; sourceTree = "<group>"; };
 		03C80EED1AE442A000058083 /* AngleUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AngleUtils.h; path = ../Cornucopia/AngleUtils.h; sourceTree = "<group>"; };
@@ -503,6 +511,16 @@
 		03C810C41AE4432600058083 /* SuperLUSupport */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuperLUSupport; sourceTree = "<group>"; };
 		03C810C51AE4432600058083 /* SVD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SVD; sourceTree = "<group>"; };
 		03C810C61AE4432600058083 /* UmfPackSupport */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UmfPackSupport; sourceTree = "<group>"; };
+		03C811541AE4E65300058083 /* CurveDerivativesTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CurveDerivativesTest.cpp; path = ../../Test/CurveDerivativesTest.cpp; sourceTree = "<group>"; };
+		03C811551AE4E65300058083 /* CurveProjectTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CurveProjectTest.cpp; path = ../../Test/CurveProjectTest.cpp; sourceTree = "<group>"; };
+		03C811561AE4E65300058083 /* EndToEndTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EndToEndTest.cpp; path = ../../Test/EndToEndTest.cpp; sourceTree = "<group>"; };
+		03C811571AE4E65300058083 /* FresnelTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FresnelTest.cpp; path = ../../Test/FresnelTest.cpp; sourceTree = "<group>"; };
+		03C811581AE4E65300058083 /* PolylineTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PolylineTest.cpp; path = ../../Test/PolylineTest.cpp; sourceTree = "<group>"; };
+		03C811591AE4E65300058083 /* PrimitiveFitterTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrimitiveFitterTest.cpp; path = ../../Test/PrimitiveFitterTest.cpp; sourceTree = "<group>"; };
+		03C8115A1AE4E65300058083 /* PrimitiveSeqTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrimitiveSeqTest.cpp; path = ../../Test/PrimitiveSeqTest.cpp; sourceTree = "<group>"; };
+		03C8115B1AE4E65300058083 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Test.cpp; path = ../../Test/Test.cpp; sourceTree = "<group>"; };
+		03C8115C1AE4E65300058083 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test.h; path = ../../Test/Test.h; sourceTree = "<group>"; };
+		03C8115D1AE4E65300058083 /* TestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestUtils.h; path = ../../Test/TestUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -549,7 +567,7 @@
 				03C80ACC1AE43F0700058083 /* AppDelegate.h */,
 				03C80ACD1AE43F0700058083 /* AppDelegate.m */,
 				03C80ACF1AE43F0700058083 /* ViewController.h */,
-				03C80AD01AE43F0700058083 /* ViewController.m */,
+				03C80AD01AE43F0700058083 /* ViewController.mm */,
 				03C80AD21AE43F0700058083 /* Main.storyboard */,
 				03C80AD51AE43F0700058083 /* Images.xcassets */,
 				03C80AD71AE43F0700058083 /* LaunchScreen.xib */,
@@ -571,7 +589,8 @@
 		03C80AE11AE43F0800058083 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				03C80AE41AE43F0800058083 /* CornucopiaTests.m */,
+				03C811531AE4E63400058083 /* Cornucpia */,
+				03C80AE41AE43F0800058083 /* CornucopiaTests.mm */,
 				03C80AE21AE43F0800058083 /* Supporting Files */,
 			);
 			name = Tests;
@@ -1242,6 +1261,23 @@
 			path = UmfPackSupport;
 			sourceTree = "<group>";
 		};
+		03C811531AE4E63400058083 /* Cornucpia */ = {
+			isa = PBXGroup;
+			children = (
+				03C811541AE4E65300058083 /* CurveDerivativesTest.cpp */,
+				03C811551AE4E65300058083 /* CurveProjectTest.cpp */,
+				03C811561AE4E65300058083 /* EndToEndTest.cpp */,
+				03C811571AE4E65300058083 /* FresnelTest.cpp */,
+				03C811581AE4E65300058083 /* PolylineTest.cpp */,
+				03C811591AE4E65300058083 /* PrimitiveFitterTest.cpp */,
+				03C8115A1AE4E65300058083 /* PrimitiveSeqTest.cpp */,
+				03C8115B1AE4E65300058083 /* Test.cpp */,
+				03C8115C1AE4E65300058083 /* Test.h */,
+				03C8115D1AE4E65300058083 /* TestUtils.h */,
+			);
+			name = Cornucpia;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1418,7 +1454,7 @@
 				03C80F461AE442AE00058083 /* PathFinder.cpp in Sources */,
 				03C80EF91AE442A000058083 /* Bezier.cpp in Sources */,
 				03C80F321AE442AE00058083 /* CornerDetector.cpp in Sources */,
-				03C80AD11AE43F0700058083 /* ViewController.m in Sources */,
+				03C80AD11AE43F0700058083 /* ViewController.mm in Sources */,
 				03C80F381AE442AE00058083 /* ErrorComputer.cpp in Sources */,
 				03C80EF51AE442A000058083 /* Algorithm.cpp in Sources */,
 				03C80F361AE442AE00058083 /* Debugging.cpp in Sources */,
@@ -1445,26 +1481,34 @@
 			files = (
 				03C80F571AE442AE00058083 /* SimpleAPI.cpp in Sources */,
 				03C80F531AE442AE00058083 /* PrimitiveSequence.cpp in Sources */,
+				03C8115E1AE4E65300058083 /* CurveDerivativesTest.cpp in Sources */,
+				03C811631AE4E65300058083 /* PrimitiveFitterTest.cpp in Sources */,
 				03C80F391AE442AE00058083 /* ErrorComputer.cpp in Sources */,
 				03C80F3D1AE442AE00058083 /* Fresnel.cpp in Sources */,
 				03C80F3B1AE442AE00058083 /* Fitter.cpp in Sources */,
 				03C80F4F1AE442AE00058083 /* PrimitiveFitter.cpp in Sources */,
 				03C80F591AE442AE00058083 /* Solver.cpp in Sources */,
+				03C811651AE4E65300058083 /* Test.cpp in Sources */,
 				03C80F4D1AE442AE00058083 /* Preprocessing.cpp in Sources */,
 				03C80EFE1AE442A000058083 /* ClothoidProjector.cpp in Sources */,
 				03C80F311AE442AE00058083 /* Combiner.cpp in Sources */,
+				03C811601AE4E65300058083 /* EndToEndTest.cpp in Sources */,
 				03C80F551AE442AE00058083 /* Resampler.cpp in Sources */,
 				03C80F4B1AE442AE00058083 /* Polyline.cpp in Sources */,
 				03C80EFC1AE442A000058083 /* Clothoid.cpp in Sources */,
+				03C811611AE4E65300058083 /* FresnelTest.cpp in Sources */,
 				03C80F431AE442AE00058083 /* Oversketcher.cpp in Sources */,
 				03C80F511AE442AE00058083 /* PrimitiveFitUtils.cpp in Sources */,
 				03C80EFA1AE442A000058083 /* Bezier.cpp in Sources */,
+				03C811621AE4E65300058083 /* PolylineTest.cpp in Sources */,
 				03C80EF81AE442A000058083 /* Arc.cpp in Sources */,
 				03C80F451AE442AE00058083 /* Parameters.cpp in Sources */,
 				03C80F471AE442AE00058083 /* PathFinder.cpp in Sources */,
-				03C80AE51AE43F0800058083 /* CornucopiaTests.m in Sources */,
+				03C80AE51AE43F0800058083 /* CornucopiaTests.mm in Sources */,
+				03C811641AE4E65300058083 /* PrimitiveSeqTest.cpp in Sources */,
 				03C80F5B1AE442AE00058083 /* TwoCurveCombine.cpp in Sources */,
 				03C80F411AE442AE00058083 /* Line.cpp in Sources */,
+				03C8115F1AE4E65300058083 /* CurveProjectTest.cpp in Sources */,
 				03C80F3F1AE442AE00058083 /* GraphConstructor.cpp in Sources */,
 				03C80F331AE442AE00058083 /* CornerDetector.cpp in Sources */,
 				03C80EF61AE442A000058083 /* Algorithm.cpp in Sources */,
