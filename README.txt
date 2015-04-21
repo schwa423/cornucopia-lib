@@ -1,3 +1,11 @@
+This is a fork of the Cornucopia library by Ilya Baran, with the intention
+of adding a simple iOS UI to evaluate the performance on mobile devices.
+The original library is found at:
+
+https://github.com/baran37/cornucopia-lib
+
+Original README follows...
+
 This is the source of the Cornucopia library.  This library is intended
 for developers who need to turn a mouse or tablet sketch stroke into a
 smooth curve.  The basic algorithm is described in:
